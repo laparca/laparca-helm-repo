@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  laparca-helm-lib:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-01-20T08:46:36.870460855Z"
+    description: A Helm chart for Kubernetes
+    digest: 16e37365f2b27d38e4caa16bd6622b6fc8e92de5b7ffd522371dbe4c52496978
+    name: laparca-helm-lib
+    type: library
+    urls:
+    - https://laparca.github.io/laparca-helm-repo/laparca-helm-lib-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-01-20T08:46:36.869909528Z"
