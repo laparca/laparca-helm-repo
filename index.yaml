@@ -1,14 +1,45 @@
 apiVersion: v1
 entries:
+  asksonic:
+  - annotations:
+      category: Infrastructure
+    apiVersion: v2
+    appVersion: 1.1.0
+    created: "2022-04-21T16:56:57.722634924Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: asksonic is a software to communicate Alexa with subsonic instances.
+    digest: cb5b859b95ac58370f7348c2d2de8058634ea79508d63f53179b7a75d1943b9b
+    home: https://github.com/laparca/ask-sonic
+    keywords:
+    - asksonic
+    - http
+    - web
+    - music
+    - alexa
+    maintainers:
+    - email: laparca@laparca.es
+      name: Samuel
+    name: asksonic
+    sources:
+    - https://github.com/laparca/asksonic-docker
+    - https://github.com/srichter/asksonic
+    urls:
+    - asksonic-0.1.0.tgz
+    version: 0.1.0
   laparca-helm-lib:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-01-20T08:46:36.870460855Z"
+    created: "2022-04-21T16:56:57.740863921Z"
     description: A Helm chart for Kubernetes
     digest: 16e37365f2b27d38e4caa16bd6622b6fc8e92de5b7ffd522371dbe4c52496978
     name: laparca-helm-lib
     type: library
     urls:
-    - https://laparca.github.io/laparca-helm-repo/laparca-helm-lib-0.1.0.tgz
+    - laparca-helm-lib-0.1.0.tgz
     version: 0.1.0
-generated: "2022-01-20T08:46:36.869909528Z"
+generated: "2022-04-21T16:56:57.714666707Z"
